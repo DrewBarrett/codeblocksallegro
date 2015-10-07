@@ -13,11 +13,11 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
-					<Add directory="../../codeblocks/allegro-5.0.10-mingw-4.7.0/allegro-5.0.10-mingw-4.7.0/include" />
+					<Add directory="../allegro-5.0.10-mingw-4.7.0/allegro-5.0.10-mingw-4.7.0/include" />
 				</Compiler>
 				<Linker>
-					<Add library="..\..\codeblocks\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\bin\allegro-5.0.10-monolith-md-debug.dll" />
-					<Add directory="../../codeblocks/allegro-5.0.10-mingw-4.7.0/allegro-5.0.10-mingw-4.7.0/bin" />
+					<Add library="..\allegro-5.0.10-mingw-4.7.0\allegro-5.0.10-mingw-4.7.0\bin\allegro-5.0.10-monolith-md-debug.dll" />
+					<Add directory="../allegro-5.0.10-mingw-4.7.0/allegro-5.0.10-mingw-4.7.0/bin" />
 				</Linker>
 			</Target>
 			<Target title="Release">
